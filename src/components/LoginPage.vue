@@ -23,7 +23,11 @@
               />
             </div>
           </div>
-          <h1 class="text-5xl font-bold ml-4 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">Sehatin</h1>
+          <h1
+            class="text-5xl font-bold ml-4 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent"
+          >
+            Sehatin
+          </h1>
         </div>
         <p class="text-xl max-w-sm text-white/90">
           Selamat datang kembali! Lanjutkan perjalanan kesehatan Anda bersama
@@ -37,31 +41,55 @@
       class="bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 flex flex-col justify-center items-center p-6 sm:p-8 relative overflow-hidden"
     >
       <!-- Background decorative elements -->
-      <div class="absolute top-10 right-10 w-32 h-32 bg-[rgba(0,119,137,0.03)] rounded-full blur-xl"></div>
-      <div class="absolute bottom-10 left-10 w-24 h-24 bg-[rgba(127,220,214,0.03)] rounded-full blur-xl"></div>
-      
+      <div
+        class="absolute top-10 right-10 w-32 h-32 bg-[rgba(0,119,137,0.03)] rounded-full blur-xl"
+      ></div>
+      <div
+        class="absolute bottom-10 left-10 w-24 h-24 bg-[rgba(127,220,214,0.03)] rounded-full blur-xl"
+      ></div>
+
       <div class="max-w-md w-full mx-auto animate-on-load relative z-10">
         <!-- Logo untuk tampilan mobile -->
         <div class="flex items-center justify-center mb-8 lg:hidden">
           <div class="relative">
-            <div class="w-12 h-12 bg-[rgba(0,119,137,0.1)] backdrop-blur-sm rounded-xl flex items-center justify-center border border-[rgba(0,119,137,0.2)] shadow-lg">
-              <svg class="w-6 h-6 text-[rgba(0,119,137,1)]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z" fill="currentColor"/>
-                <path d="M16 11H13V8H11V11H8V13H11V16H13V13H16V11Z" fill="currentColor" class="text-white"/>
+            <div
+              class="w-12 h-12 bg-[rgba(0,119,137,0.1)] backdrop-blur-sm rounded-xl flex items-center justify-center border border-[rgba(0,119,137,0.2)] shadow-lg"
+            >
+              <svg
+                class="w-6 h-6 text-[rgba(0,119,137,1)]"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M16 11H13V8H11V11H8V13H11V16H13V13H16V11Z"
+                  fill="currentColor"
+                  class="text-white"
+                />
               </svg>
             </div>
           </div>
-          <h1 class="text-3xl font-bold ml-3 text-[rgba(0,119,137,1)]">Sehatin</h1>
+          <h1 class="text-3xl font-bold ml-3 text-[rgba(0,119,137,1)]">
+            Sehatin
+          </h1>
         </div>
 
         <!-- Card dengan Liquid Glass Effect -->
         <div class="relative">
           <!-- Glass morphism effect -->
-          <div class="absolute inset-0 bg-white/70 backdrop-blur-xl rounded-3xl border border-white/40 shadow-2xl"></div>
-          
+          <div
+            class="absolute inset-0 bg-white/70 backdrop-blur-xl rounded-3xl border border-white/40 shadow-2xl"
+          ></div>
+
           <!-- Inner glow effect -->
-          <div class="absolute inset-0 bg-gradient-to-br from-white/40 to-transparent rounded-3xl opacity-60"></div>
-          
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-white/40 to-transparent rounded-3xl opacity-60"
+          ></div>
+
           <!-- Content -->
           <div class="relative p-8">
             <h2 class="text-2xl font-bold text-gray-800 mb-2 text-center">
@@ -78,8 +106,12 @@
                 type="button"
                 class="w-full relative group"
               >
-                <div class="absolute inset-0 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200/60 shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-[1.02]"></div>
-                <div class="relative flex justify-center items-center gap-3 py-3.5 px-4">
+                <div
+                  class="absolute inset-0 bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200/60 shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-[1.02]"
+                ></div>
+                <div
+                  class="relative flex justify-center items-center gap-3 py-3.5 px-4"
+                >
                   <svg
                     class="w-5 h-5"
                     viewBox="0 0 48 48"
@@ -124,7 +156,9 @@
                     >Alamat Email</label
                   >
                   <div class="relative">
-                    <div class="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200/50"></div>
+                    <div
+                      class="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200/50"
+                    ></div>
                     <input
                       v-model="email"
                       id="email"
@@ -151,7 +185,9 @@
                     >
                   </div>
                   <div class="relative">
-                    <div class="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200/50"></div>
+                    <div
+                      class="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-xl border border-gray-200/50"
+                    ></div>
                     <input
                       v-model="password"
                       id="password"
@@ -179,16 +215,25 @@
                 class="w-full relative group overflow-hidden"
               >
                 <!-- Background dengan gradient dan blur -->
-                <div class="absolute inset-0 bg-gradient-to-r from-[rgba(0,119,137,1)] to-[rgba(0,90,105,1)] rounded-2xl shadow-lg group-hover:shadow-xl transition-all duration-300"></div>
-                
+                <div
+                  class="absolute inset-0 bg-gradient-to-r from-[rgba(0,119,137,1)] to-[rgba(0,90,105,1)] rounded-2xl shadow-lg group-hover:shadow-xl transition-all duration-300"
+                ></div>
+
                 <!-- Hover effect -->
-                <div class="absolute inset-0 bg-gradient-to-r from-[rgba(0,119,137,0.9)] to-[rgba(0,90,105,0.9)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
-                
+                <div
+                  class="absolute inset-0 bg-gradient-to-r from-[rgba(0,119,137,0.9)] to-[rgba(0,90,105,0.9)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"
+                ></div>
+
                 <!-- Shine effect -->
-                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                
+                <div
+                  class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 transform -translate-x-full group-hover:translate-x-full transition-transform duration-1000"
+                ></div>
+
                 <!-- Loading overlay -->
-                <div v-if="loading" class="absolute inset-0 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
+                <div
+                  v-if="loading"
+                  class="absolute inset-0 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center"
+                >
                   <svg
                     class="animate-spin h-5 w-5 text-white"
                     xmlns="http://www.w3.org/2000/svg"
@@ -210,11 +255,17 @@
                     ></path>
                   </svg>
                 </div>
-                
+
                 <!-- Text content -->
                 <div class="relative py-4">
-                  <span v-if="!loading" class="text-white font-semibold text-base">Login</span>
-                  <span v-else class="text-white font-semibold text-base">Memproses...</span>
+                  <span
+                    v-if="!loading"
+                    class="text-white font-semibold text-base"
+                    >Login</span
+                  >
+                  <span v-else class="text-white font-semibold text-base"
+                    >Memproses...</span
+                  >
                 </div>
               </button>
             </form>
@@ -238,10 +289,10 @@
 <script setup>
 import { ref } from "vue";
 import { supabase } from "../supabaseClient";
-import { useRouter, useRoute } from "vue-router"; 
+import { useRouter, useRoute } from "vue-router";
 
 const router = useRouter();
-const route = useRoute(); 
+const route = useRoute();
 const email = ref("");
 const password = ref("");
 const loading = ref(false);
@@ -251,17 +302,15 @@ const handleLogin = async () => {
   try {
     loading.value = true;
     errorMessage.value = null;
+
     const { error } = await supabase.auth.signInWithPassword({
       email: email.value,
       password: password.value,
     });
-    if (error) throw error;
-    
-    // --- Logika Redirect Cerdas ---
-    // Cek apakah ada query 'redirect' di URL
-    const redirectPath = route.query.redirect || "/dashboard"; 
-    router.push(redirectPath); // Arahkan ke tujuan atau ke dashboard sebagai default
 
+    if (error) throw error;
+
+    router.push({ name: "beranda" });
   } catch (error) {
     errorMessage.value = error.message || "Email atau password salah.";
   } finally {
@@ -272,7 +321,9 @@ const handleLogin = async () => {
 const loginWithGoogle = async () => {
   try {
     // Ambil redirect path dari URL saat ini, atau default ke /dashboard
-    const redirectPathAfterLogin = `${window.location.origin}${route.query.redirect || '/dashboard'}`;
+    const redirectPathAfterLogin = `${window.location.origin}${
+      route.query.redirect || "/dashboard/beranda"
+    }`;
 
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",

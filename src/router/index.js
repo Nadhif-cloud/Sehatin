@@ -35,7 +35,7 @@ const routes = [
   children: [
     { 
       path: '', 
-      name: 'Beranda', 
+      name: 'beranda', 
       component: DashboardHome // <-- Halaman Home Ditambahkan
     },
     { 
