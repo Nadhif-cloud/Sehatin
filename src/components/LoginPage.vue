@@ -320,20 +320,21 @@ const handleLogin = async () => {
 
 const loginWithGoogle = async () => {
   try {
-    // Ambil redirect path dari URL saat ini, atau default ke /dashboard
-    const redirectPathAfterLogin = `${window.location.origin}${
-      route.query.redirect || "/dashboard/beranda"
-    }`;
+    // Ambil redirect path dari URL saat ini, jika tidak ada => ke Dashboard (beranda)
+    const redirectDestination = route.query.redirect || "/dashboard";
+
+    const redirectPathAfterLogin = `${window.location.origin}${redirectDestination}`;
 
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: redirectPathAfterLogin, // Arahkan ke tujuan setelah login Google
+        redirectTo: redirectPathAfterLogin,
       },
     });
+
     if (error) throw error;
   } catch (error) {
-    errorMessage.value = error.message;
+    errorMessage.value = error.message || "Login gagal.";
   }
 };
 </script>
