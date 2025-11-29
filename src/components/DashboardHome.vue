@@ -9,7 +9,7 @@
           <div class="text-6xl animate-bounce">👋</div>
         </div>
         
-        <h1 class="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-4">
+        <h1 class="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent mb-4 py-2">
           Selamat Datang Kembali!
         </h1>
         
