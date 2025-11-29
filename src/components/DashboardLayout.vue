@@ -468,6 +468,12 @@ watch(screenWidth, (newWidth) => {
     isMobileSidebarOpen.value = false;
   }
 });
+
+onMounted(() => {
+  if (route.path === "/dashboard") {
+    router.replace({ name: "beranda" });
+  }
+});
 </script>
 
 <style scoped>

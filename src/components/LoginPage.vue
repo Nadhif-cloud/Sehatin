@@ -320,10 +320,7 @@ const handleLogin = async () => {
 
 const loginWithGoogle = async () => {
   try {
-    // Ambil redirect path dari URL saat ini, jika tidak ada => ke Dashboard (beranda)
-    const redirectDestination = route.query.redirect || "/dashboard";
-
-    const redirectPathAfterLogin = `${window.location.origin}${redirectDestination}`;
+    const redirectPathAfterLogin = `${window.location.origin}/dashboard`;
 
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
